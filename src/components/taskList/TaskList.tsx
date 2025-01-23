@@ -20,7 +20,7 @@ import { restrictToWindowEdges } from "@dnd-kit/modifiers"
 import { RootState } from "../../store"
 import { Task } from "../taskItem/taskItem"
 import { setTasks } from "../../features/tasks/taskSlice"
-import styles from "./taskList.module.scss"
+import styles from "./TaskList.module.scss"
 import { NoTaskMessage } from "../noTaskMessage/noTaskMessage"
 
 export const TaskList: React.FC = () => {
