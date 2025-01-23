@@ -2,9 +2,9 @@ import React, { useState } from "react"
 import { TaskProps } from "../../features/tasks/taskTypes"
 import styles from "./taskItem.module.scss"
 import { useSortable } from "@dnd-kit/sortable"
-import { TaskActions } from "../TaskActions/TaskActions"
-import { DeleteButton } from "../Buttons/DeleteButton/DeleteButton"
-import { DeleteModal } from "../Modals/DeleteTaskModal/DeleteTaskModal"
+import { TaskActions } from "../taskActions/taskActions"
+import { DeleteButton } from "../Buttons/deleteButton/deleteButton"
+import { DeleteModal } from "../modals/deleteTaskModal/deleteTaskModal"
 
 export const Task: React.FC<TaskProps> = ({ task }) => {
   const { attributes, listeners, setNodeRef, transform, transition } =
